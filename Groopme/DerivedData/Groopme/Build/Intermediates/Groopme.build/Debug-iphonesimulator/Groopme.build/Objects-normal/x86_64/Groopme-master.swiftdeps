@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
+options: "a2e6c08f6b495180147c1e91ef756e0b"
+build_time: [502038503, 376021000]
+inputs:
+  "/Users/macuser/Desktop/Groopme/Groopme/Groopme/ViewController.swift": [502038191, 0]
+  "/Users/macuser/Desktop/Groopme/Groopme/Groopme/AppDelegate.swift": [502037395, 0]
