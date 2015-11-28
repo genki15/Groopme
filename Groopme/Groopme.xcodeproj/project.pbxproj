@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5381D4641C0A0B9500DEE0F0 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5381D4631C0A0B9500DEE0F0 /* EventViewController.swift */; };
 		53BDEDEE1C09D34F00116012 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BDEDED1C09D34F00116012 /* AppDelegate.swift */; };
 		53BDEDF01C09D34F00116012 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BDEDEF1C09D34F00116012 /* ViewController.swift */; };
 		53BDEDF31C09D34F00116012 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53BDEDF11C09D34F00116012 /* Main.storyboard */; };
@@ -49,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5381D4631C0A0B9500DEE0F0 /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
 		53BDEDEA1C09D34F00116012 /* Groopme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Groopme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53BDEDED1C09D34F00116012 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53BDEDEF1C09D34F00116012 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				53BDEE3B1C09D75100116012 /* Parse.framework */,
 				53BDEDED1C09D34F00116012 /* AppDelegate.swift */,
 				53BDEDEF1C09D34F00116012 /* ViewController.swift */,
+				5381D4631C0A0B9500DEE0F0 /* EventViewController.swift */,
 				53BDEDF11C09D34F00116012 /* Main.storyboard */,
 				53BDEDF71C09D34F00116012 /* Assets.xcassets */,
 				53BDEDF91C09D34F00116012 /* LaunchScreen.storyboard */,
@@ -316,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53BDEDF01C09D34F00116012 /* ViewController.swift in Sources */,
+				5381D4641C0A0B9500DEE0F0 /* EventViewController.swift in Sources */,
 				53BDEDEE1C09D34F00116012 /* AppDelegate.swift in Sources */,
 				53BDEDF61C09D34F00116012 /* Groopme.xcdatamodeld in Sources */,
 			);
@@ -552,6 +556,7 @@
 				53BDEE171C09D34F00116012 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53BDEE181C09D34F00116012 /* Build configuration list for PBXNativeTarget "GroopmeTests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +565,7 @@
 				53BDEE1A1C09D34F00116012 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53BDEE1B1C09D34F00116012 /* Build configuration list for PBXNativeTarget "GroopmeUITests" */ = {
 			isa = XCConfigurationList;
@@ -568,6 +574,7 @@
 				53BDEE1D1C09D34F00116012 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

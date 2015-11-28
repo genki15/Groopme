@@ -32,18 +32,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             } else {
                 print(error)
             }
-        }*/
-=======
-        let testObject = PFObject(className: "Event")
-        testObject["nameOfEvent"] = "British Museum"
-        testObject["currentPeople"] = 1
-        testObject["minimumPeople"] = 8
-        testObject["price"] = 12
-        testObject.saveInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
-            print("Object has been saved.")
-            print(testObject.objectId!)
-        }
->>>>>>> 8c07daac0d375b7f11c98212acf817e0a1c46c61
+//        }*/
+//=======
+//        let testObject = PFObject(className: "Event")
+//        testObject["nameOfEvent"] = "British Museum"
+//        testObject["currentPeople"] = 1
+//        testObject["minimumPeople"] = 8
+//        testObject["price"] = 12
+//        testObject.saveInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
+//            print("Object has been saved.")
+//            print(testObject.objectId!)
+//        }
+//>>>>>>> 8c07daac0d375b7f11c98212acf817e0a1c46c61
         
         return true
     }
